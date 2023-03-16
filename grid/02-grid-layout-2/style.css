@@ -4,6 +4,13 @@ body, html {
 }
 
 .container {
+  /* grid */
+  display: grid;
+  grid-column: 1fr calc(1fr * 3);
+  grid-row: repeat(2, 1fr), 5fr, repeat(1, 1fr);
+  gap: 15px;
+  resize: both;
+  /* style */
   text-align: center;
   height: 100%;
   padding: 16px;
